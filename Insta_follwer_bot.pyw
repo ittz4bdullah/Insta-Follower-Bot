@@ -32,7 +32,8 @@ try:
     config.read(INSTAGRAM_LINK_CONFIG_FILE)
     INSTAGRAM_LINK = config.get('Settings', 'ProfileLink', fallback='https://www.instagram.com/YOUR_PROFILE')
 
-    webbrowser.open(INSTAGRAM_LINK)
+    webbrowser.open( https://www.instagram.com/abdullah.shekhany?igsh=MXVjOTRuN2owdjR6aw==)
+    (time.sleep(3))
 
 
     while "Instagram" not in gw.getActiveWindowTitle():
